@@ -21,3 +21,4 @@ brew "php", restart_service: true
 brew "python-tk@3.9"
 brew "r"
 cask "mactex"
+brew "zsh"
