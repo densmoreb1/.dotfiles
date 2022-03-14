@@ -5,3 +5,8 @@
 	email = 78512643+densmoreb1@users.noreply.github.com
 [core]
 	editor = code --wait
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
