@@ -1,7 +1,9 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/services"
 brew "python@3.9"
+brew "mysql", restart_service: true
 brew "r"
 cask "microsoft-teams"
 cask "rstudio"
