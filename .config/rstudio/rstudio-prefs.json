@@ -1,8 +1,0 @@
-{
-    "jobs_tab_visibility": "shown",
-    "initial_working_directory": "~/Documents/math119",
-    "global_theme": "classic",
-    "posix_terminal_shell": "bash",
-    "load_workspace": false,
-    "always_save_history": false
-}
