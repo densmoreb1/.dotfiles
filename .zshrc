@@ -3,19 +3,20 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # Themes
-ZSH_THEME="apple"
+# ZSH_THEME="flazz"
+ZSH_THEME="agnoster"
 
 
 # Plugins
-plugins=(git)
+plugins=(git zsh-syntax-highlighting)
 
 source $ZSH/oh-my-zsh.sh
 
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
+export PATH="$HOME/.emacs.d/bin:$PATH"
 
 export CONDA_AUTO_ACTIVATE_BASE=false
-
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
