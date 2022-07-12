@@ -6,15 +6,15 @@ export ZSH="$HOME/.oh-my-zsh"
 # ZSH_THEME="flazz"
 ZSH_THEME="agnoster"
 
-
 # Plugins
-plugins=(git zsh-syntax-highlighting)
+plugins=(git zsh-syntax-highlighting zsh-autosuggestions macos)
 
 source $ZSH/oh-my-zsh.sh
 
 export PATH="/opt/homebrew/bin:$PATH"
 export PATH="/opt/homebrew/sbin:$PATH"
 export PATH="$HOME/.emacs.d/bin:$PATH"
+export PATH="/opt/metasploit-framework/bin:$PATH"
 
 export CONDA_AUTO_ACTIVATE_BASE=false
 
@@ -32,4 +32,9 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+bindkey -v
+alias t="task"
+
+
 
